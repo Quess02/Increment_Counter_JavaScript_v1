@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS Counter</title>
+    <link rel="stylesheet" href="counter.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+   
+</head>
+<body>
+    <div class="cont container-fluid ">
+        
+        <div class="counter-wrapper mx-auto d-block card">
+            <div class="fs-2 c text-dark">Increment Counter v1</div>
+            <div class="display mx-auto d-block bg-light my-3 w-75 border border-1 rounded-3 ">
+                <h1 class="d-text" id="d-text">0</h1>
+            </div>
+            <div class="control-panel d-flex justify-content-center">
+                <div class=" mx-2 btn-panel " id="increment">
+                    <button class=" btn-sm btn-dark rounded-pill"id="increment-btn"onclick='counter.increment()'>Increment</button>
+                </div>
+                <div class=" mx-2 btn-panel" id="reset">
+                    <button class=" btn-sm btn-outline-dark rounded-pill" id="reset-btn" onclick='counter.reset()'>Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="counter.js"></script>
+</body>
+
+
+
+</html>

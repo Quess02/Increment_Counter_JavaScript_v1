@@ -1,0 +1,32 @@
+html{
+    font-family :cursive !important;
+}
+.cont{
+    height: 300px;
+    background: rgb(241, 121, 91) ;
+}
+.counter-wrapper{
+    margin:0;
+    top:50%;
+    transform: translateY(50%);
+    width: 350px;
+}
+.counter-wrapper,.display,.btn-panel,.cont{
+    text-align: center;
+}
+.control-panel{
+    padding: 5px;
+}
+button{
+    border: none;
+    width: 6rem;
+    height: 2rem;
+}
+.d-text {
+    color: rgb(252, 144, 144);
+    font-family :cursive !important;
+}
+.c{
+    color: rgb(252, 144, 144);
+    font-family :cursive !important;
+}
